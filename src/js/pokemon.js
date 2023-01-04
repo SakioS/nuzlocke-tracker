@@ -1,6 +1,6 @@
 const pkmnData = [
 	{
-		name: "Bulbasaur",
+		name: "Bisasam",
 		value: "bulbasaur",
 		icon: "bulbasaur",
 		exclude: [
