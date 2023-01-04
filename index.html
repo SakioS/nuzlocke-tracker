@@ -5,7 +5,7 @@
 		<title>Nuzlocke Tracker</title>
 		<meta property="og:description" name="description" content="A tool for tracking Pokémon encounters and captures during Nuzloke challenges">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-	    <link rel="canonical" href="https://ashenfactory.github.io/nuzlocke-tracker/">
+	    <!--<link rel="canonical" href="https://ashenfactory.github.io/nuzlocke-tracker/">-->
 
 		<meta property="og:image" content="https://repository-images.githubusercontent.com/121312463/4a7a0156-592e-48c6-84d2-83b36c0a5d3a">
 		<meta name="twitter:card" content="summary_large_image">
@@ -54,8 +54,8 @@
 				</div>
 
 				<div id="noscript" class="ui error message">
-					<div class="header">It looks like JavaScript is disabled</div>
-					<p class="center aligned">Please consider enabeling it in order to use this website.</p>
+					<div class="header">Es sieht so als als hättest du Javascript deaktiviert.</div>
+					<p class="center aligned">Bitte aktiviere es um die Website zu benutzen.</p>
 				</div>
 			</div>
 
@@ -68,70 +68,70 @@
 		</div>
 
 		<div id="importModal" class="ui modal tiny">
-			<div class="header">Import</div>
+			<div class="header">Importieren</div>
 			<div class="content">
-				<p>Are you sure you want to import the selected file? Any existing data for the associated game will be replaced.</p>
+				<p>Bist du sicher, dass die du ausgewählte Datei importieren möchtest?<br>Alle vorhandenen Daten werden zum entsprechenden Spiel ersetzt.</p>
 			</div>
 			<div class="actions">
-				<div class="ui approve button">Import data</div>
-				<div class="ui cancel button">Cancel</div>
+				<div class="ui approve button">Daten importieren</div>
+				<div class="ui cancel button">Abbrechen</div>
 			</div>
 		</div>
 
 		<div id="clearModal" class="ui modal tiny">
 			<div class="header">Clear custom location</div>
 			<div class="content">
-				<p>Do you wish to clear this location's data, or remove the location entirely?</p>
+				<p>Bist du sicher, dass du den Fundort leeren oder komplett löschen möchtest?</p>
 			</div>
 			<div class="actions">
-				<div class="ui approve button" data-action="clear">Clear data</div>
-				<div class="ui approve button" data-action="remove">Remove location</div>
-				<div class="ui cancel button">Cancel</div>
+				<div class="ui approve button" data-action="clear">Daten leeren</div>
+				<div class="ui approve button" data-action="remove">Fundort löschen</div>
+				<div class="ui cancel button">Abbrechen</div>
 			</div>
 		</div>
 
 		<div id="resetModal" class="ui modal tiny">
-			<div class="header">Reset</div>
+			<div class="header">Zurücksetzen</div>
 			<div class="content">
-				<p>Do you wish to clear all values or perform a total reset of this game, which also removes all custom locations? Any unsaved data will be lost.</p>
+				<p>Bist du sicher, dass du alle Daten zurücksetzen möchtest?<br>Alle eigenen Fundorte und nicht gespeicherte Daten gehen verloren.</p>
 			</div>
 			<div class="actions">
-				<div class="ui approve button" data-action="clear">Clear values</div>
-				<div class="ui approve button" data-action="remove">Total reset</div>
-				<div class="ui cancel button">Cancel</div>
+				<div class="ui approve button" data-action="clear">Daten leeren</div>
+				<div class="ui approve button" data-action="remove">Komplett zurücksetzen</div>
+				<div class="ui cancel button">Abbrechen</div>
 			</div>
 		</div>
 
 		<div id="locationModal" class="ui modal tiny">
-			<div class="header">Add location</div>
+			<div class="header">Fundort hinzufügen</div>
 			<div class="content ui form">
 				<div class="field">
 					<label for="customLocationName">Name</label>
 					<input type="text" id="customLocationName" required>
 				</div>
 				<div class="field">
-					<label for="locationOrder">Order</label>
+					<label for="locationOrder">Reihenfolge</label>
 					<div id="locationOrder" class="ui selection dropdown">
 						<input name="location" type="hidden" required>
-						<div class="default text">Select a location</div>
+						<div class="default text">Fundort auswählen</div>
 						<i class="dropdown icon"></i>
 						<div class="menu"></div>
 					</div>
 				</div>
 			</div>
 			<div class="actions">
-				<div class="ui approve button">Add</div>
-				<div class="ui cancel button">Cancel</div>
+				<div class="ui approve button">Hinzufügen</div>
+				<div class="ui cancel button">Abbrechen</div>
 			</div>
 		</div>
 
 		<div id="settingsModal" class="ui modal tiny">
-			<div class="header">Game settings</div>
+			<div class="header">Spieleinstellungen</div>
 			<div class="content ui form">
 				<div class="field">
 					<div class="ui checkbox">
 						<input id="disableDexLimit" type="checkbox">
-						<label for="disableDexLimit">Allow all Pokémon</label>
+						<label for="disableDexLimit">Alle Pokemon erlauben</label>
 					</div>
 				</div>
 
@@ -143,7 +143,7 @@
 				</div> -->
 			</div>
 			<div class="actions">
-				<div class="ui cancel button">Close</div>
+				<div class="ui cancel button">Schließen</div>
 			</div>
 		</div>
 
